@@ -1,0 +1,6 @@
+*~
+*.swp
+
+# Ignore virtual environments
+/venv*/
+/devenv/

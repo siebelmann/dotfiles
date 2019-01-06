@@ -15,7 +15,7 @@ install each component by invoking stow:
 ```bash
 $ git clone https://github.com/siebelmann/dotfiles.git ~/dotfiles
 $ cd ~/dotfiles
-$ stow *git*
+$ stow git
 ```
 
 This will create a symlink for each file in the *git* directory.

@@ -29,7 +29,7 @@ ps1_hostname () {
     local exit=$?
     if [[ -n "$SSH_CLIENT" ]]; then
         local host=$(hostname)
-        echo -e "@$host"
+        echo -e "\e[33m@\e[93m$host\e[0m"
     fi
     return $exit
 }

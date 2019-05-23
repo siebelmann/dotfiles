@@ -46,7 +46,7 @@ ps1_virtual_env () {
     return $exit
 }
 
-PS1='$(ps1_exit_code)\u$(ps1_hostname)  \e[96m\w\e[0m $(ps1_virtual_env)$(__git_ps1 " \e[94m%s\e[0m ")\n\$ '
+PS1='$(ps1_exit_code)\u$(ps1_hostname) \e[96m\w\e[0m $(ps1_virtual_env)$(__git_ps1 " \e[94m%s\e[0m ")\n\$ '
 
 export VISUAL=vim
 export EDITOR=$VISUAL

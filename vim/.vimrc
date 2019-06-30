@@ -14,6 +14,9 @@ set shiftround
 
 set number
 
+" Enable the status line at all times
+set laststatus=2
+
 autocmd FileType html setlocal tabstop=2 shiftwidth=2
 autocmd FileType jinja setlocal tabstop=2 shiftwidth=2
 autocmd FileType svg setlocal tabstop=2 shiftwidth=2

@@ -1,6 +1,9 @@
 *~
 *.swp
 
+# Ignore VS Code settings
+/.vscode/
+
 # Ignore virtual environments
 /venv*/
 /devenv/

@@ -4,3 +4,6 @@
 [user]
 	name = B. Siebelmann
 	email = b@siebelmann.de
+
+[core]
+	excludesfile = ~/.cvsignore
